@@ -7,7 +7,7 @@ import plotly.express as px
 import seaborn as sns
 
 
-dash.register_page(__name__, path='/user_device_wau', name="3️⃣User Device WAU")
+dash.register_page(__name__, path='/user_device_wau', name="3️⃣ User Device WAU")
 
 # Read the data
 user_device_df = pd.read_csv('user_device.csv')
