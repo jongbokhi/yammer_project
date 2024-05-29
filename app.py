@@ -11,12 +11,12 @@ server = app.server
 
 # Desired order of pages
 desired_order = [
-    '📋Analysis Summary',
-    "🔎Situation",  
-    "1️⃣Weekely Active User",
-    "2️⃣User Cohort Analysis",
-    "3️⃣User Device WAU",
-    "4️⃣Email Action"
+    '📋 Analysis Summary',
+    "🔎 Situation",  
+    "1️⃣ Weekely Active User",
+    "2️⃣ User Cohort Analysis",
+    "3️⃣ User Device WAU",
+    "4️⃣ Email Action"
 ]
 
 # Define the sidebar layout
