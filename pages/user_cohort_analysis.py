@@ -9,7 +9,7 @@ import plotly.express as px
 dash.register_page(__name__, path='/user_cohort_analysis', name="2️⃣User Cohort Analysis")
 
 # Read the data
-user_cohort_df = pd.read_csv('yammer_project\User_cohort_analysis.csv')
+user_cohort_df = pd.read_csv(r'yammer_project\User_cohort_analysis.csv')
 user_cohort_df.drop(['Average age during week'], axis = 1, inplace = True)
 
 def cohort_line_plot():
