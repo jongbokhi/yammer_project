@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 
-dash.register_page(__name__, path='/user_cohort_analysis', name="2️⃣User Cohort Analysis")
+dash.register_page(__name__, path='/user_cohort_analysis', name="2️⃣ User Cohort Analysis")
 
 # Read the data
 user_cohort_df = pd.read_csv('User_cohort_analysis.csv')
