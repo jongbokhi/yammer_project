@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 # Initialize the app
-app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.FLATLY])
+app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.FLATLY])
 server = app.server
 
 # Desired order of pages
