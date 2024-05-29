@@ -10,7 +10,7 @@ import seaborn as sns
 dash.register_page(__name__, path='/user_device_wau', name="3️⃣User Device WAU")
 
 # Read the data
-user_device_df = pd.read_csv(r'C:\Users\jongb\Desktop\yammer_project\user_device.csv')
+user_device_df = pd.read_csv('yammer_project\user_device.csv')
 
 # Calculate Week On Week change
 device_pct_change_df = round(user_device_df[['weekly_active_users', 'computer', 'phone', 'tablet']].pct_change() * 100, 2)
