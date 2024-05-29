@@ -11,15 +11,15 @@ import pandas as pd
 
 import plotly.express as px
 
-weekly_active_user_df = pd.read_csv('/content/drive/MyDrive/yammer_project/weekly_active_user.csv')
+weekly_active_user_df = pd.read_csv('weekly_active_user.csv')
 
-new_client_df = pd.read_csv('/content/drive/MyDrive/yammer_project/alluser_Vs_activated.csv')
-new_client_week_df = pd.read_csv('/content/drive/MyDrive/yammer_project/weekly_active_user_week.csv')
+new_client_df = pd.read_csv('alluser_Vs_activated.csv')
+new_client_week_df = pd.read_csv('weekly_active_user_week.csv')
 
-user_cohort_df = pd.read_csv('/content/drive/MyDrive/yammer_project/User_cohort_analysis.csv')
-user_device = pd.read_csv('/content/drive/MyDrive/yammer_project/user_device.csv')
-email_action = pd.read_csv('/content/drive/MyDrive/yammer_project/email_action.csv')
-open_ct_rate = pd.read_csv('/content/drive/MyDrive/yammer_project/open_ct_rate.csv')
+user_cohort_df = pd.read_csv('User_cohort_analysis.csv')
+user_device = pd.read_csv('user_device.csv')
+email_action = pd.read_csv('email_action.csv')
+open_ct_rate = pd.read_csv('yammer_project/open_ct_rate.csv')
 
 """# Situation: WAU(Weekly Active User) Decrease"""
 
