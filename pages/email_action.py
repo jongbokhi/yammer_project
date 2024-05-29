@@ -7,7 +7,7 @@ import plotly.express as px
 import seaborn as sns
 
 
-dash.register_page(__name__, path='/email_action', name="4️⃣Email Action")
+dash.register_page(__name__, path='/email_action', name="4️⃣ Email Action")
 
 # Read the data
 email_action = pd.read_csv('email_action.csv')
