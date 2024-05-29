@@ -9,7 +9,7 @@ import plotly.express as px
 dash.register_page(__name__, path='/situation', name="🔎Situation")
 
 # Read the data
-weekly_active_user_df = pd.read_csv(r'C:\Users\jongb\Desktop\yammer_project\weekly_active_user.csv')
+weekly_active_user_df = pd.read_csv('yammer_project\weekly_active_user.csv')
 
 # Define the function for the line plot
 def line_plot(data):
