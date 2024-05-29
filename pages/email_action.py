@@ -10,7 +10,7 @@ import seaborn as sns
 dash.register_page(__name__, path='/email_action', name="4️⃣Email Action")
 
 # Read the data
-email_action = pd.read_csv(r'email_action.csv')
+email_action = pd.read_csv('email_action.csv')
 
 open_ct_rate = pd.read_csv('open_ct_rate.csv')
 
