@@ -10,9 +10,9 @@ import seaborn as sns
 dash.register_page(__name__, path='/email_action', name="4️⃣Email Action")
 
 # Read the data
-email_action = pd.read_csv(r'C:\Users\jongb\Desktop\yammer_project\email_action.csv')
+email_action = pd.read_csv('yammer_project\email_action.csv')
 
-open_ct_rate = pd.read_csv(r'C:\Users\jongb\Desktop\yammer_project\open_ct_rate.csv')
+open_ct_rate = pd.read_csv('yammer_project\open_ct_rate.csv')
 
 email_op_rate = pd.DataFrame()
 email_op_rate['weekly_open_rate(%)'] = round(open_ct_rate['weekly_digest_email_open']/open_ct_rate['weekly_digest_email'], 2)*100
