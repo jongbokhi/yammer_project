@@ -9,8 +9,8 @@ import plotly.express as px
 dash.register_page(__name__, path='/analysis_new_client', name="1️⃣Weekely Active User")
 
 # Read the data
-new_client_df = pd.read_csv('yammer_project\alluser_Vs_activated.csv')
-new_client_week_df = pd.read_csv('yammer_project\weekly_active_user_week.csv')
+new_client_df = pd.read_csv(r'yammer_project\alluser_Vs_activated.csv')
+new_client_week_df = pd.read_csv(r'yammer_project\weekly_active_user_week.csv')
 new_client_week_df['signup_users_WoW(%)'] = round(new_client_week_df['signup_users'].pct_change()*100, 2)
 new_client_week_df['activated_users_WoW(%)'] = round(new_client_week_df['activated_users'].pct_change()*100, 2)
 new_client_week_df.fillna(0)
