@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-dash.register_page(__name__, path='/analysis_summary', name="📋Analysis Summary")
+dash.register_page(__name__, path='/', name="📋 Analysis Summary")
 
 # Define the layout
 layout = dbc.Container([
